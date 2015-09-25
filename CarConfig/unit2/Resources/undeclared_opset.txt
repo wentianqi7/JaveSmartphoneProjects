@@ -1,0 +1,9 @@
+Make2:Model5:10000:8
+OptionSet:OptionSet0:5
+Option0:0,Option1:20,Option2:44,Option3:21,Option4:-30
+OptionSet:OptionSet1:5
+Option0:0,Option1:20,Option2:44,Option3:21,Option4:-30
+OptionSet:OptionSet2:5
+Option0:0,Option1:20,Option2:44,Option3:21,Option4:-30
+OptionSet:OptionSet3:5
+Option0:0,Option1:20,Option2:44,Option3:21,Option4:-30
