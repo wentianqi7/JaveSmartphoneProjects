@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicShake</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_shake">ShakeActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="search_hint">Enter Song or Artist Name Here</string>
+</resources>

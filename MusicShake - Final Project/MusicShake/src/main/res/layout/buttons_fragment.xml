@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <Button
+        android:id="@+id/play_button"
+        style="@style/Widget.AppCompat.ActionBar.TabBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/accent_material_dark"
+        android:enabled="true"
+        android:layout_weight="0.25"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/play_button"
+        android:layout_toRightOf="@+id/play_button"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.25"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/shake_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/profile_button"
+        android:layout_toStartOf="@+id/profile_button"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.25"
+        android:text="Shake" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.25"
+        android:text="Profile" />
+</LinearLayout>
