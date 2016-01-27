@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.25"
+            android:text="id"
+             />
+
+        <TextView
+            android:id="@+id/quiz1_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_id"
+            android:layout_toRightOf="@+id/item_id"
+            android:layout_weight="0.15"
+            android:text="quiz1"
+             />
+        <TextView
+            android:id="@+id/quiz2_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_id"
+            android:layout_toRightOf="@+id/item_id"
+            android:layout_weight="0.15"
+            android:text="quiz2"
+             />
+        <TextView
+            android:id="@+id/quiz3_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_id"
+            android:layout_toRightOf="@+id/item_id"
+            android:layout_weight="0.15"
+            android:text="quiz3"
+             />
+        <TextView
+            android:id="@+id/quiz4_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_id"
+            android:layout_toRightOf="@+id/item_id"
+            android:layout_weight="0.15"
+            android:text="quiz4"
+             />
+        <TextView
+            android:id="@+id/quiz5_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_id"
+            android:layout_toRightOf="@+id/item_id"
+            android:layout_weight="0.15"
+            android:text="quiz5"
+             />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+

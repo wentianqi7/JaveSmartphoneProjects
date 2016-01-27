@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MortgageApp</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_show_record">ShowRecordActivity</string>
+</resources>
